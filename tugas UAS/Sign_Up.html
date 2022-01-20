@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Prata&display=swap" rel="stylesheet" />
+    <title>KucingIjo Buku Tamu</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="All_File.css" />
+  </head>
+  <body>
+    <div class="header mnsrat">
+      <p style="padding: 15px; font-size: 25px">Hello</p>
+    </div>
+    <nav class="mnsrat">
+      <label class="logo"
+        ><a href="#"><img src="manabu.jpg" alt="manabu" /></a
+      ></label>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Class.html">Class</a></li>
+        <li><a href="Login.html">login</a></li>
+        <li><a href="Sign_Up.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="utama">
+      <form action="action_page.php" style="border: 1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <hr />
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required />
+
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required />
+
+          <p>By creating an account you agree to our <a href="#" style="color: dodgerblue">Terms & Privacy</a>.</p>
+
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <h5 style="text-align: center">Copyright &copy;2020 | MANABU</h5>
+    </footer>
+  </body>
+</html>

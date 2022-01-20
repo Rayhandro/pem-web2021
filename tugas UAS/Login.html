@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Prata&display=swap" rel="stylesheet" />
+    <title>KucingIjo Buku Tamu</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="All_File.css" />
+  </head>
+  <body>
+    <div class="header mnsrat">
+      <p style="padding: 15px; font-size: 25px">Hello</p>
+    </div>
+    <nav class="mnsrat">
+      <label class="logo"
+        ><a href="#"><img src="manabu.jpg" alt="manabu" /></a
+      ></label>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Class.html">Class</a></li>
+        <li><a class="aktif" href="#">Login</a></li>
+        <li><a href="Sign_Up.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="utama">
+      <form action="action_page.php" method="post">
+        <div class="imgcontainer"></div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required />
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required />
+
+          <button type="submit">Login</button>
+          <label> <input type="checkbox" checked="checked" name="remember" /> Remember me </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <h5 style="text-align: center">Copyright &copy;2020 | MANABU</h5>
+    </footer>
+  </body>
+</html>
